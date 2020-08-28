@@ -1,0 +1,13 @@
+CREATE DATABASE projetoMoura;
+
+CREATE TABLE registros (
+ id_registro INT NOT NULL AUTO_INCREMENT,
+ nome VARCHAR(30) NOT NULL,
+ telefone VARCHAR(15) NOT NULL,
+ rua VARCHAR(30) NOT NULL,
+ numero VARCHAR(10) NOT NULL,
+ bairro VARCHAR(30) NOT NULL,
+ cidade VARCHAR(30) NOT NULL,
+ estado CHAR(2) NOT NULL,
+ PRIMARY KEY (id_registro)
+);
